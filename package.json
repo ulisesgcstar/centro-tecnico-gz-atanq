@@ -1,0 +1,24 @@
+{
+  "name": "ctgz-apps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ulisesgcstar/centro-tecnico-gz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ulisesgcstar/centro-tecnico-gz/issues"
+  },
+  "homepage": "https://github.com/ulisesgcstar/centro-tecnico-gz#readme",
+  "devDependencies": {
+    "@types/google-apps-script": "^1.0.99",
+    "eslint": "^9.32.0"
+  }
+}

@@ -1,0 +1,35 @@
+# Ignorar todo por defecto
+**
+
+# Permitir carpeta src y su contenido
+!src/**
+
+# Ignorar control de versiones y configuraciones locales
+.git/
+.gitignore
+.vscode/
+.idea/
+.history/
+
+# Ignorar dependencias
+node_modules/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de desarrollo que no deben ir a Apps Script
+README.md
+LICENSE
+package-lock.json
+eslint.config.cjs
+jsconfig.json
+global.d.ts
+
+# Archivos comprimidos o temporales
+*.log
+*.zip
+*.rar
+*.7z
+*.tmp
+*.bak

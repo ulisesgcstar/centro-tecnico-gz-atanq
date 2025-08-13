@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "target": "es2020"
+  },
+  "include": ["src/**/*", "global.d.ts"]
+}
