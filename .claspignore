@@ -1,24 +1,19 @@
-# Ignorar todo por defecto
-**
-
-# Permitir carpeta src y su contenido
-!src/**
-
-# Ignorar control de versiones y configuraciones locales
+cat > .claspignore <<'EOF'
+# Control de versiones / configs locales
 .git/
 .gitignore
 .vscode/
 .idea/
 .history/
 
-# Ignorar dependencias
+# Dependencias
 node_modules/
 
 # Archivos de sistema
 .DS_Store
 Thumbs.db
 
-# Archivos de desarrollo que no deben ir a Apps Script
+# Archivos de desarrollo que NO van a Apps Script
 README.md
 LICENSE
 package-lock.json
@@ -26,10 +21,11 @@ eslint.config.cjs
 jsconfig.json
 global.d.ts
 
-# Archivos comprimidos o temporales
+# Temporales
 *.log
 *.zip
 *.rar
 *.7z
 *.tmp
 *.bak
+EOF
