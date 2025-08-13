@@ -1,0 +1,10 @@
+printf "%s\n" \
+"node_modules/" \
+".vscode/" \
+".DS_Store" \
+"Thumbs.db" \
+".env" \
+".history/" \
+".idea/" \
+".clasp.json.local" \
+> .gitignore
